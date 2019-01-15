@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A524427A21EDDFB200288E4D /* Build configuration list for PBXProject "TestAlg" */;
+			buildConfigurationList = A524427A21EDDFB200288E4D /* Build configuration list for PBXProject "PasswordResolver" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -308,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A524427A21EDDFB200288E4D /* Build configuration list for PBXProject "TestAlg" */ = {
+		A524427A21EDDFB200288E4D /* Build configuration list for PBXProject "PasswordResolver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A524428D21EDDFB400288E4D /* Debug */,
