@@ -20,7 +20,7 @@
 		A524428621EDDFB400288E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A524428921EDDFB400288E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A524428B21EDDFB400288E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A524428C21EDDFB400288E4D /* TestAlg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestAlg.entitlements; sourceTree = "<group>"; };
+		A524429521EDF93200288E4D /* PasswordResolver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasswordResolver.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 		A524427621EDDFB200288E4D = {
 			isa = PBXGroup;
 			children = (
-				A524428121EDDFB200288E4D /* TestAlg */,
+				A524428121EDDFB200288E4D /* PasswordResolver */,
 				A524428021EDDFB200288E4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,7 +50,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A524428121EDDFB200288E4D /* TestAlg */ = {
+		A524428121EDDFB200288E4D /* PasswordResolver */ = {
 			isa = PBXGroup;
 			children = (
 				A524428221EDDFB200288E4D /* AppDelegate.swift */,
@@ -58,9 +58,9 @@
 				A524428621EDDFB400288E4D /* Assets.xcassets */,
 				A524428821EDDFB400288E4D /* Main.storyboard */,
 				A524428B21EDDFB400288E4D /* Info.plist */,
-				A524428C21EDDFB400288E4D /* TestAlg.entitlements */,
+				A524429521EDF93200288E4D /* PasswordResolver.entitlements */,
 			);
-			path = TestAlg;
+			path = PasswordResolver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,7 +79,7 @@
 			dependencies = (
 			);
 			name = PasswordResolver;
-			productName = TestAlg;
+			productName = PasswordResolver;
 			productReference = A524427F21EDDFB200288E4D /* PasswordResolver.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -270,12 +270,11 @@
 		A524429021EDDFB400288E4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = TestAlg/TestAlg.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PasswordResolver/PasswordResolver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 46869Y4379;
-				INFOPLIST_FILE = TestAlg/Info.plist;
+				INFOPLIST_FILE = PasswordResolver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -289,12 +288,11 @@
 		A524429121EDDFB400288E4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = TestAlg/TestAlg.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PasswordResolver/PasswordResolver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 46869Y4379;
-				INFOPLIST_FILE = TestAlg/Info.plist;
+				INFOPLIST_FILE = PasswordResolver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
