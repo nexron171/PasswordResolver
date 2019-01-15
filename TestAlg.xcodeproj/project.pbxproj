@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A524427F21EDDFB200288E4D /* TestAlg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAlg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A524427F21EDDFB200288E4D /* PasswordResolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordResolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A524428221EDDFB200288E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A524428421EDDFB200288E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A524428621EDDFB400288E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		A524428021EDDFB200288E4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A524427F21EDDFB200288E4D /* TestAlg.app */,
+				A524427F21EDDFB200288E4D /* PasswordResolver.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A524427E21EDDFB200288E4D /* TestAlg */ = {
+		A524427E21EDDFB200288E4D /* PasswordResolver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A524428F21EDDFB400288E4D /* Build configuration list for PBXNativeTarget "TestAlg" */;
+			buildConfigurationList = A524428F21EDDFB400288E4D /* Build configuration list for PBXNativeTarget "PasswordResolver" */;
 			buildPhases = (
 				A524427B21EDDFB200288E4D /* Sources */,
 				A524427C21EDDFB200288E4D /* Frameworks */,
@@ -78,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = TestAlg;
+			name = PasswordResolver;
 			productName = TestAlg;
-			productReference = A524427F21EDDFB200288E4D /* TestAlg.app */;
+			productReference = A524427F21EDDFB200288E4D /* PasswordResolver.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A524427E21EDDFB200288E4D /* TestAlg */,
+				A524427E21EDDFB200288E4D /* PasswordResolver */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +280,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.devnex.TestAlg;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.devnex.PasswordResolver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -299,7 +299,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.devnex.TestAlg;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.devnex.PasswordResolver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -317,7 +317,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A524428F21EDDFB400288E4D /* Build configuration list for PBXNativeTarget "TestAlg" */ = {
+		A524428F21EDDFB400288E4D /* Build configuration list for PBXNativeTarget "PasswordResolver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A524429021EDDFB400288E4D /* Debug */,
